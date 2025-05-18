@@ -379,7 +379,7 @@ Partial Class usermgnt
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
-        BackgroundImage = My.Resources.Resources.bakery_shop__1_
+        BackgroundImage = My.Resources.Resources._2
         ClientSize = New Size(800, 450)
         Controls.Add(Guna2CustomGradientPanel2)
         Controls.Add(Guna2CustomGradientPanel1)
