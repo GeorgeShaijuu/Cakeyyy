@@ -25,6 +25,10 @@ Partial Class payment
         components = New ComponentModel.Container()
         Dim CustomizableEdges13 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges14 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges4 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges5 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges6 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges7 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
@@ -36,12 +40,12 @@ Partial Class payment
         Dim CustomizableEdges10 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges11 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges12 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges4 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Guna2BorderlessForm1 = New Guna.UI2.WinForms.Guna2BorderlessForm(components)
         Guna2CustomGradientPanel2 = New Guna.UI2.WinForms.Guna2CustomGradientPanel()
+        Guna2GradientButton3 = New Guna.UI2.WinForms.Guna2GradientButton()
+        Label7 = New Label()
+        Label5 = New Label()
+        Guna2PictureBox1 = New Guna.UI2.WinForms.Guna2PictureBox()
         Guna2ComboBox2 = New Guna.UI2.WinForms.Guna2ComboBox()
         Label2 = New Label()
         Guna2ComboBox1 = New Guna.UI2.WinForms.Guna2ComboBox()
@@ -52,13 +56,10 @@ Partial Class payment
         Label4 = New Label()
         Label1 = New Label()
         Label3 = New Label()
-        Guna2PictureBox1 = New Guna.UI2.WinForms.Guna2PictureBox()
-        Label5 = New Label()
-        Label7 = New Label()
-        Guna2GradientButton3 = New Guna.UI2.WinForms.Guna2GradientButton()
+        Timer1 = New Timer(components)
         Guna2CustomGradientPanel2.SuspendLayout()
-        CType(Guna2DataGridView1, ComponentModel.ISupportInitialize).BeginInit()
         CType(Guna2PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
+        CType(Guna2DataGridView1, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' Guna2BorderlessForm1
@@ -98,6 +99,63 @@ Partial Class payment
         Guna2CustomGradientPanel2.Size = New Size(646, 390)
         Guna2CustomGradientPanel2.TabIndex = 30
         ' 
+        ' Guna2GradientButton3
+        ' 
+        Guna2GradientButton3.BackColor = Color.Transparent
+        Guna2GradientButton3.BorderRadius = 8
+        Guna2GradientButton3.CustomizableEdges = CustomizableEdges1
+        Guna2GradientButton3.DisabledState.BorderColor = Color.DarkGray
+        Guna2GradientButton3.DisabledState.CustomBorderColor = Color.DarkGray
+        Guna2GradientButton3.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        Guna2GradientButton3.DisabledState.FillColor2 = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        Guna2GradientButton3.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        Guna2GradientButton3.FillColor = Color.Blue
+        Guna2GradientButton3.FillColor2 = Color.LightSalmon
+        Guna2GradientButton3.Font = New Font("Segoe UI", 9F)
+        Guna2GradientButton3.ForeColor = Color.White
+        Guna2GradientButton3.Location = New Point(485, 335)
+        Guna2GradientButton3.Name = "Guna2GradientButton3"
+        Guna2GradientButton3.ShadowDecoration.CustomizableEdges = CustomizableEdges2
+        Guna2GradientButton3.Size = New Size(149, 40)
+        Guna2GradientButton3.TabIndex = 34
+        Guna2GradientButton3.Text = "Generate Bill"
+        ' 
+        ' Label7
+        ' 
+        Label7.AutoSize = True
+        Label7.BackColor = Color.Transparent
+        Label7.Font = New Font("Lucida Bright", 20.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label7.ForeColor = Color.Red
+        Label7.Location = New Point(118, 230)
+        Label7.Name = "Label7"
+        Label7.Size = New Size(89, 31)
+        Label7.TabIndex = 33
+        Label7.Text = "02:00"
+        ' 
+        ' Label5
+        ' 
+        Label5.AutoSize = True
+        Label5.BackColor = Color.Transparent
+        Label5.Font = New Font("Lucida Bright", 11.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label5.ForeColor = Color.White
+        Label5.Location = New Point(118, 193)
+        Label5.Name = "Label5"
+        Label5.Size = New Size(89, 17)
+        Label5.TabIndex = 32
+        Label5.Text = "Time Left :"
+        ' 
+        ' Guna2PictureBox1
+        ' 
+        Guna2PictureBox1.CustomizableEdges = CustomizableEdges3
+        Guna2PictureBox1.Image = My.Resources.Resources.Untitled_design__31_
+        Guna2PictureBox1.ImageRotate = 0F
+        Guna2PictureBox1.Location = New Point(6, 212)
+        Guna2PictureBox1.Name = "Guna2PictureBox1"
+        Guna2PictureBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges4
+        Guna2PictureBox1.Size = New Size(76, 68)
+        Guna2PictureBox1.TabIndex = 31
+        Guna2PictureBox1.TabStop = False
+        ' 
         ' Guna2ComboBox2
         ' 
         Guna2ComboBox2.BackColor = Color.Transparent
@@ -110,6 +168,7 @@ Partial Class payment
         Guna2ComboBox2.Font = New Font("Segoe UI", 10F)
         Guna2ComboBox2.ForeColor = Color.FromArgb(CByte(68), CByte(88), CByte(112))
         Guna2ComboBox2.ItemHeight = 30
+        Guna2ComboBox2.Items.AddRange(New Object() {"CASH", "UPI", "CARD"})
         Guna2ComboBox2.Location = New Point(5, 146)
         Guna2ComboBox2.Name = "Guna2ComboBox2"
         Guna2ComboBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges6
@@ -286,62 +345,9 @@ Partial Class payment
         Label3.TabIndex = 17
         Label3.Text = "Select Cart and Customer"
         ' 
-        ' Guna2PictureBox1
+        ' Timer1
         ' 
-        Guna2PictureBox1.CustomizableEdges = CustomizableEdges3
-        Guna2PictureBox1.Image = My.Resources.Resources.Untitled_design__31_
-        Guna2PictureBox1.ImageRotate = 0F
-        Guna2PictureBox1.Location = New Point(6, 212)
-        Guna2PictureBox1.Name = "Guna2PictureBox1"
-        Guna2PictureBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges4
-        Guna2PictureBox1.Size = New Size(76, 68)
-        Guna2PictureBox1.TabIndex = 31
-        Guna2PictureBox1.TabStop = False
-        ' 
-        ' Label5
-        ' 
-        Label5.AutoSize = True
-        Label5.BackColor = Color.Transparent
-        Label5.Font = New Font("Lucida Bright", 11.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Label5.ForeColor = Color.White
-        Label5.Location = New Point(118, 193)
-        Label5.Name = "Label5"
-        Label5.Size = New Size(89, 17)
-        Label5.TabIndex = 32
-        Label5.Text = "Time Left :"
-        ' 
-        ' Label7
-        ' 
-        Label7.AutoSize = True
-        Label7.BackColor = Color.Transparent
-        Label7.Font = New Font("Lucida Bright", 20.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Label7.ForeColor = Color.Red
-        Label7.Location = New Point(118, 230)
-        Label7.Name = "Label7"
-        Label7.Size = New Size(89, 31)
-        Label7.TabIndex = 33
-        Label7.Text = "02:00"
-        ' 
-        ' Guna2GradientButton3
-        ' 
-        Guna2GradientButton3.BackColor = Color.Transparent
-        Guna2GradientButton3.BorderRadius = 8
-        Guna2GradientButton3.CustomizableEdges = CustomizableEdges1
-        Guna2GradientButton3.DisabledState.BorderColor = Color.DarkGray
-        Guna2GradientButton3.DisabledState.CustomBorderColor = Color.DarkGray
-        Guna2GradientButton3.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        Guna2GradientButton3.DisabledState.FillColor2 = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        Guna2GradientButton3.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        Guna2GradientButton3.FillColor = Color.Blue
-        Guna2GradientButton3.FillColor2 = Color.LightSalmon
-        Guna2GradientButton3.Font = New Font("Segoe UI", 9F)
-        Guna2GradientButton3.ForeColor = Color.White
-        Guna2GradientButton3.Location = New Point(485, 335)
-        Guna2GradientButton3.Name = "Guna2GradientButton3"
-        Guna2GradientButton3.ShadowDecoration.CustomizableEdges = CustomizableEdges2
-        Guna2GradientButton3.Size = New Size(149, 40)
-        Guna2GradientButton3.TabIndex = 34
-        Guna2GradientButton3.Text = "Generate Bill"
+        Timer1.Interval = 1000
         ' 
         ' payment
         ' 
@@ -354,8 +360,8 @@ Partial Class payment
         Text = "payment"
         Guna2CustomGradientPanel2.ResumeLayout(False)
         Guna2CustomGradientPanel2.PerformLayout()
-        CType(Guna2DataGridView1, ComponentModel.ISupportInitialize).EndInit()
         CType(Guna2PictureBox1, ComponentModel.ISupportInitialize).EndInit()
+        CType(Guna2DataGridView1, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
     End Sub
 
@@ -375,4 +381,5 @@ Partial Class payment
     Friend WithEvents Guna2GradientButton3 As Guna.UI2.WinForms.Guna2GradientButton
     Friend WithEvents Label7 As Label
     Friend WithEvents Label5 As Label
+    Friend WithEvents Timer1 As Timer
 End Class
