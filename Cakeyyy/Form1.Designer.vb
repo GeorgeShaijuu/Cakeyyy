@@ -79,6 +79,7 @@ Partial Class Form1
         Guna2TextBox2.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         Guna2TextBox2.Location = New Point(539, 260)
         Guna2TextBox2.Name = "Guna2TextBox2"
+        Guna2TextBox2.PasswordChar = "*"c
         Guna2TextBox2.PlaceholderText = "Password"
         Guna2TextBox2.SelectedText = ""
         Guna2TextBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges4
