@@ -134,7 +134,7 @@ Partial Class Form1
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
-        BackgroundImage = My.Resources.Resources.bakery_shop
+        BackgroundImage = My.Resources.Resources._1
         ClientSize = New Size(800, 450)
         Controls.Add(Guna2GradientButton1)
         Controls.Add(Label2)
