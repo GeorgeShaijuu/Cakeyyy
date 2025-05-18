@@ -148,4 +148,33 @@ Public Class usermgnt
         ' Show the form
         cakeForm.Show()
     End Sub
+    Private Sub Guna2GradientButton2_Click(sender As Object, e As EventArgs) Handles Guna2GradientButton2.Click
+        If selectedCustomerId = -1 Then
+            MessageBox.Show("Please select a customer to delete.")
+            Return
+        End If
+
+        Dim confirmResult As DialogResult = MessageBox.Show("Are you sure you want to delete this customer?", "Confirm Delete", MessageBoxButtons.YesNo)
+        If confirmResult = DialogResult.No Then Exit Sub
+
+        Using conn As New MySqlConnection(connectionString)
+            Try
+                conn.Open()
+                Dim query As String = "DELETE FROM customer WHERE cid = @id"
+                Using cmd As New MySqlCommand(query, conn)
+                    cmd.Parameters.AddWithValue("@id", selectedCustomerId)
+                    cmd.ExecuteNonQuery()
+                    MessageBox.Show("Customer deleted successfully.")
+                End Using
+
+                ' Refresh
+                ClearForm()
+                LoadCustomerData()
+
+            Catch ex As Exception
+                MessageBox.Show("Error deleting customer: " & ex.Message)
+            End Try
+        End Using
+    End Sub
+
 End Class

@@ -75,7 +75,7 @@ Partial Class cake
         DataGridViewCellStyle1.BackColor = Color.White
         Guna2DataGridView1.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle1
         DataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle2.BackColor = Color.FromArgb(CByte(100), CByte(88), CByte(255))
+        DataGridViewCellStyle2.BackColor = Color.FromArgb(100, 88, 255)
         DataGridViewCellStyle2.Font = New Font("Segoe UI", 9F)
         DataGridViewCellStyle2.ForeColor = Color.White
         DataGridViewCellStyle2.SelectionBackColor = SystemColors.Highlight
@@ -87,12 +87,12 @@ Partial Class cake
         DataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleLeft
         DataGridViewCellStyle3.BackColor = Color.White
         DataGridViewCellStyle3.Font = New Font("Segoe UI", 9F)
-        DataGridViewCellStyle3.ForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
-        DataGridViewCellStyle3.SelectionBackColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
-        DataGridViewCellStyle3.SelectionForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
+        DataGridViewCellStyle3.ForeColor = Color.FromArgb(71, 69, 94)
+        DataGridViewCellStyle3.SelectionBackColor = Color.FromArgb(231, 229, 255)
+        DataGridViewCellStyle3.SelectionForeColor = Color.FromArgb(71, 69, 94)
         DataGridViewCellStyle3.WrapMode = DataGridViewTriState.False
         Guna2DataGridView1.DefaultCellStyle = DataGridViewCellStyle3
-        Guna2DataGridView1.GridColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
+        Guna2DataGridView1.GridColor = Color.FromArgb(231, 229, 255)
         Guna2DataGridView1.Location = New Point(276, 53)
         Guna2DataGridView1.Name = "Guna2DataGridView1"
         Guna2DataGridView1.RowHeadersVisible = False
@@ -104,8 +104,8 @@ Partial Class cake
         Guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = Color.Empty
         Guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = Color.Empty
         Guna2DataGridView1.ThemeStyle.BackColor = Color.White
-        Guna2DataGridView1.ThemeStyle.GridColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
-        Guna2DataGridView1.ThemeStyle.HeaderStyle.BackColor = Color.FromArgb(CByte(100), CByte(88), CByte(255))
+        Guna2DataGridView1.ThemeStyle.GridColor = Color.FromArgb(231, 229, 255)
+        Guna2DataGridView1.ThemeStyle.HeaderStyle.BackColor = Color.FromArgb(100, 88, 255)
         Guna2DataGridView1.ThemeStyle.HeaderStyle.BorderStyle = DataGridViewHeaderBorderStyle.None
         Guna2DataGridView1.ThemeStyle.HeaderStyle.Font = New Font("Segoe UI", 9F)
         Guna2DataGridView1.ThemeStyle.HeaderStyle.ForeColor = Color.White
@@ -115,10 +115,10 @@ Partial Class cake
         Guna2DataGridView1.ThemeStyle.RowsStyle.BackColor = Color.White
         Guna2DataGridView1.ThemeStyle.RowsStyle.BorderStyle = DataGridViewCellBorderStyle.SingleHorizontal
         Guna2DataGridView1.ThemeStyle.RowsStyle.Font = New Font("Segoe UI", 9F)
-        Guna2DataGridView1.ThemeStyle.RowsStyle.ForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
+        Guna2DataGridView1.ThemeStyle.RowsStyle.ForeColor = Color.FromArgb(71, 69, 94)
         Guna2DataGridView1.ThemeStyle.RowsStyle.Height = 25
-        Guna2DataGridView1.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(CByte(231), CByte(229), CByte(255))
-        Guna2DataGridView1.ThemeStyle.RowsStyle.SelectionForeColor = Color.FromArgb(CByte(71), CByte(69), CByte(94))
+        Guna2DataGridView1.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(231, 229, 255)
+        Guna2DataGridView1.ThemeStyle.RowsStyle.SelectionForeColor = Color.FromArgb(71, 69, 94)
         ' 
         ' Guna2GradientButton2
         ' 
@@ -127,11 +127,11 @@ Partial Class cake
         Guna2GradientButton2.CustomizableEdges = CustomizableEdges1
         Guna2GradientButton2.DisabledState.BorderColor = Color.DarkGray
         Guna2GradientButton2.DisabledState.CustomBorderColor = Color.DarkGray
-        Guna2GradientButton2.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        Guna2GradientButton2.DisabledState.FillColor2 = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        Guna2GradientButton2.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        Guna2GradientButton2.DisabledState.FillColor = Color.FromArgb(169, 169, 169)
+        Guna2GradientButton2.DisabledState.FillColor2 = Color.FromArgb(169, 169, 169)
+        Guna2GradientButton2.DisabledState.ForeColor = Color.FromArgb(141, 141, 141)
         Guna2GradientButton2.FillColor = Color.Red
-        Guna2GradientButton2.FillColor2 = Color.FromArgb(CByte(192), CByte(0), CByte(0))
+        Guna2GradientButton2.FillColor2 = Color.FromArgb(192, 0, 0)
         Guna2GradientButton2.Font = New Font("Segoe UI", 9F)
         Guna2GradientButton2.ForeColor = Color.White
         Guna2GradientButton2.Location = New Point(494, 335)
@@ -145,7 +145,7 @@ Partial Class cake
         ' 
         Label4.AutoSize = True
         Label4.BackColor = Color.Transparent
-        Label4.Font = New Font("Lucida Bright", 11.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label4.Font = New Font("Lucida Bright", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0)
         Label4.ForeColor = Color.White
         Label4.Location = New Point(9, 264)
         Label4.Name = "Label4"
@@ -159,13 +159,13 @@ Partial Class cake
         Guna2TextBox3.BorderRadius = 8
         Guna2TextBox3.CustomizableEdges = CustomizableEdges7
         Guna2TextBox3.DefaultText = ""
-        Guna2TextBox3.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
-        Guna2TextBox3.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
-        Guna2TextBox3.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        Guna2TextBox3.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        Guna2TextBox3.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        Guna2TextBox3.DisabledState.BorderColor = Color.FromArgb(208, 208, 208)
+        Guna2TextBox3.DisabledState.FillColor = Color.FromArgb(226, 226, 226)
+        Guna2TextBox3.DisabledState.ForeColor = Color.FromArgb(138, 138, 138)
+        Guna2TextBox3.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138)
+        Guna2TextBox3.FocusedState.BorderColor = Color.FromArgb(94, 148, 255)
         Guna2TextBox3.Font = New Font("Segoe UI", 9F)
-        Guna2TextBox3.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        Guna2TextBox3.HoverState.BorderColor = Color.FromArgb(94, 148, 255)
         Guna2TextBox3.Location = New Point(6, 284)
         Guna2TextBox3.Name = "Guna2TextBox3"
         Guna2TextBox3.PlaceholderText = "Preference"
@@ -181,11 +181,11 @@ Partial Class cake
         Guna2GradientButton1.CustomizableEdges = CustomizableEdges3
         Guna2GradientButton1.DisabledState.BorderColor = Color.DarkGray
         Guna2GradientButton1.DisabledState.CustomBorderColor = Color.DarkGray
-        Guna2GradientButton1.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        Guna2GradientButton1.DisabledState.FillColor2 = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        Guna2GradientButton1.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        Guna2GradientButton1.FillColor = Color.FromArgb(CByte(128), CByte(64), CByte(0))
-        Guna2GradientButton1.FillColor2 = Color.FromArgb(CByte(128), CByte(64), CByte(64))
+        Guna2GradientButton1.DisabledState.FillColor = Color.FromArgb(169, 169, 169)
+        Guna2GradientButton1.DisabledState.FillColor2 = Color.FromArgb(169, 169, 169)
+        Guna2GradientButton1.DisabledState.ForeColor = Color.FromArgb(141, 141, 141)
+        Guna2GradientButton1.FillColor = Color.FromArgb(128, 64, 0)
+        Guna2GradientButton1.FillColor2 = Color.FromArgb(128, 64, 64)
         Guna2GradientButton1.Font = New Font("Segoe UI", 9F)
         Guna2GradientButton1.ForeColor = Color.White
         Guna2GradientButton1.Location = New Point(291, 335)
@@ -199,7 +199,7 @@ Partial Class cake
         ' 
         Label2.AutoSize = True
         Label2.BackColor = Color.Transparent
-        Label2.Font = New Font("Lucida Bright", 11.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label2.Font = New Font("Lucida Bright", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0)
         Label2.ForeColor = Color.White
         Label2.Location = New Point(5, 122)
         Label2.Name = "Label2"
@@ -211,7 +211,7 @@ Partial Class cake
         ' 
         Label3.AutoSize = True
         Label3.BackColor = Color.Transparent
-        Label3.Font = New Font("Lucida Bright", 11.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label3.Font = New Font("Lucida Bright", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0)
         Label3.ForeColor = Color.White
         Label3.Location = New Point(6, 53)
         Label3.Name = "Label3"
@@ -225,13 +225,13 @@ Partial Class cake
         Guna2TextBox2.BorderRadius = 8
         Guna2TextBox2.CustomizableEdges = CustomizableEdges13
         Guna2TextBox2.DefaultText = ""
-        Guna2TextBox2.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
-        Guna2TextBox2.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
-        Guna2TextBox2.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        Guna2TextBox2.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        Guna2TextBox2.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        Guna2TextBox2.DisabledState.BorderColor = Color.FromArgb(208, 208, 208)
+        Guna2TextBox2.DisabledState.FillColor = Color.FromArgb(226, 226, 226)
+        Guna2TextBox2.DisabledState.ForeColor = Color.FromArgb(138, 138, 138)
+        Guna2TextBox2.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138)
+        Guna2TextBox2.FocusedState.BorderColor = Color.FromArgb(94, 148, 255)
         Guna2TextBox2.Font = New Font("Segoe UI", 9F)
-        Guna2TextBox2.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        Guna2TextBox2.HoverState.BorderColor = Color.FromArgb(94, 148, 255)
         Guna2TextBox2.Location = New Point(5, 142)
         Guna2TextBox2.Name = "Guna2TextBox2"
         Guna2TextBox2.PlaceholderText = "Flavour"
@@ -246,13 +246,13 @@ Partial Class cake
         Guna2TextBox1.BorderRadius = 8
         Guna2TextBox1.CustomizableEdges = CustomizableEdges11
         Guna2TextBox1.DefaultText = ""
-        Guna2TextBox1.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
-        Guna2TextBox1.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
-        Guna2TextBox1.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        Guna2TextBox1.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        Guna2TextBox1.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        Guna2TextBox1.DisabledState.BorderColor = Color.FromArgb(208, 208, 208)
+        Guna2TextBox1.DisabledState.FillColor = Color.FromArgb(226, 226, 226)
+        Guna2TextBox1.DisabledState.ForeColor = Color.FromArgb(138, 138, 138)
+        Guna2TextBox1.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138)
+        Guna2TextBox1.FocusedState.BorderColor = Color.FromArgb(94, 148, 255)
         Guna2TextBox1.Font = New Font("Segoe UI", 9F)
-        Guna2TextBox1.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        Guna2TextBox1.HoverState.BorderColor = Color.FromArgb(94, 148, 255)
         Guna2TextBox1.Location = New Point(5, 74)
         Guna2TextBox1.Name = "Guna2TextBox1"
         Guna2TextBox1.PlaceholderText = "Size"
@@ -265,7 +265,7 @@ Partial Class cake
         ' 
         Label1.AutoSize = True
         Label1.BackColor = Color.Transparent
-        Label1.Font = New Font("Lucida Bright", 24F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label1.Font = New Font("Lucida Bright", 24F, FontStyle.Bold, GraphicsUnit.Point, 0)
         Label1.ForeColor = Color.White
         Label1.Location = New Point(158, 10)
         Label1.Name = "Label1"
@@ -277,7 +277,7 @@ Partial Class cake
         ' 
         Label5.AutoSize = True
         Label5.BackColor = Color.Transparent
-        Label5.Font = New Font("Lucida Bright", 11.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label5.Font = New Font("Lucida Bright", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0)
         Label5.ForeColor = Color.White
         Label5.Location = New Point(158, 53)
         Label5.Name = "Label5"
@@ -291,13 +291,13 @@ Partial Class cake
         Guna2TextBox4.BorderRadius = 8
         Guna2TextBox4.CustomizableEdges = CustomizableEdges9
         Guna2TextBox4.DefaultText = ""
-        Guna2TextBox4.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
-        Guna2TextBox4.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
-        Guna2TextBox4.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        Guna2TextBox4.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        Guna2TextBox4.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        Guna2TextBox4.DisabledState.BorderColor = Color.FromArgb(208, 208, 208)
+        Guna2TextBox4.DisabledState.FillColor = Color.FromArgb(226, 226, 226)
+        Guna2TextBox4.DisabledState.ForeColor = Color.FromArgb(138, 138, 138)
+        Guna2TextBox4.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138)
+        Guna2TextBox4.FocusedState.BorderColor = Color.FromArgb(94, 148, 255)
         Guna2TextBox4.Font = New Font("Segoe UI", 9F)
-        Guna2TextBox4.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        Guna2TextBox4.HoverState.BorderColor = Color.FromArgb(94, 148, 255)
         Guna2TextBox4.Location = New Point(158, 73)
         Guna2TextBox4.Name = "Guna2TextBox4"
         Guna2TextBox4.PlaceholderText = "Price"
@@ -310,7 +310,7 @@ Partial Class cake
         ' 
         Label6.AutoSize = True
         Label6.BackColor = Color.Transparent
-        Label6.Font = New Font("Lucida Bright", 11.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label6.Font = New Font("Lucida Bright", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0)
         Label6.ForeColor = Color.White
         Label6.Location = New Point(6, 192)
         Label6.Name = "Label6"
@@ -324,13 +324,13 @@ Partial Class cake
         Guna2TextBox5.BorderRadius = 8
         Guna2TextBox5.CustomizableEdges = CustomizableEdges5
         Guna2TextBox5.DefaultText = ""
-        Guna2TextBox5.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
-        Guna2TextBox5.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
-        Guna2TextBox5.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        Guna2TextBox5.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        Guna2TextBox5.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        Guna2TextBox5.DisabledState.BorderColor = Color.FromArgb(208, 208, 208)
+        Guna2TextBox5.DisabledState.FillColor = Color.FromArgb(226, 226, 226)
+        Guna2TextBox5.DisabledState.ForeColor = Color.FromArgb(138, 138, 138)
+        Guna2TextBox5.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138)
+        Guna2TextBox5.FocusedState.BorderColor = Color.FromArgb(94, 148, 255)
         Guna2TextBox5.Font = New Font("Segoe UI", 9F)
-        Guna2TextBox5.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        Guna2TextBox5.HoverState.BorderColor = Color.FromArgb(94, 148, 255)
         Guna2TextBox5.Location = New Point(6, 212)
         Guna2TextBox5.Name = "Guna2TextBox5"
         Guna2TextBox5.PlaceholderText = "Stock"
